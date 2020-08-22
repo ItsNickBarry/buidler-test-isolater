@@ -23,3 +23,5 @@ Error: Returned error: project ID does not have access to archive state
 ```
 
 This plugin is not compatible with Mocha `describe`-level [exclusive tests](https://mochajs.org/#exclusive-tests).
+
+Isolated tests are run via a temporary file `.buidler_test_isolater_tmp.js` created in the buidler `tests` directory.  This file is deleted upon test completion, but may not be removed if test execution halts unexpectedly; therefore, it should be added to the `.gitignore` file or deleted manually.
