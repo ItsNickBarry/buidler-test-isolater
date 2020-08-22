@@ -1,0 +1,30 @@
+{
+  "name": "buidler-test-isolater",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Run each Mocha test in a separate BRE",
+  "keywords": [
+    "buidler",
+    "solidity",
+    "smart-contracts",
+    "ethereum",
+    "blockchain",
+    "wow",
+    "test",
+    "mocha",
+    "fork"
+  ],
+  "repository": "https://github.com/ItsNickBarry/buidler-test-isolater",
+  "author": "Nick Barry",
+  "main": "index.js",
+  "peerDependencies": {
+    "@nomiclabs/buidler": "^1.4.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.4.0",
+    "eslint": "^7.6.0"
+  },
+  "dependencies": {
+    "terser": "^5.2.1"
+  }
+}
