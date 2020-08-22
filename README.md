@@ -5,7 +5,7 @@ Reinitialize the Buidler Runtime Environment before each Mocha test.
 ## Installation
 
 ```bash
-yarn add --dev https://github.com/ItsNickBarry/buidler-test-isolater
+yarn add --dev buidler-test-isolater
 ```
 
 ## Usage
